@@ -10,8 +10,29 @@
   }
 
   a:hover, a:focus {
-    color: #000 !important;
   }
+}
+
+.links:hover{
+  color: black;
+  background: none;
+  text-decoration: none;
+}
+
+.style-logo{
+  color: #000 !important;
+  font-size: 27px !important;
+  padding-top: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+}
+.style-logo:hover{
+  text-decoration: none;
+  background: none;
+}
+
+.list-configuration{
+  list-decoration: none;
+
 }
 
 .logout {
